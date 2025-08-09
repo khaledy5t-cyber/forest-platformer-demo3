@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forest Platformer — Demo</title>
+<style>
+  html,body{height:100%;margin:0;background:#071827;color:#e6fbff;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;overflow:hidden}
+  #gameCanvas{display:block;background:#000}
+  #ui{position:fixed;right:12px;top:12px;color:#dff3ff;font-size:14px;z-index:50;background:rgba(0,0,0,0.2);padding:8px;border-radius:8px}
+  button{padding:6px 8px;border-radius:6px;border:none;background:#8bd3ff;color:#042331;font-weight:700;cursor:pointer}
+</style>
+</head><body>
+<canvas id="gameCanvas" width="1280" height="720"></canvas>
+<div id="ui"><div>HP: <span id="hp">3</span></div><div>Shards: <span id="shards">0</span></div><div style="margin-top:6px"><button id="restart">Restart</button></div></div>
+<script src="game.js"></script>
+</body></html>
